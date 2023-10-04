@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blackColor: #061717e8;
+    --whiteColor: #fff;
+    --mainColor: #25b4ec;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    min-height: 100vh;
+    background: url(bg2.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    animation:change 55s infinite ease-in-out ;
+    animation-timing-function: 300s;
+    animation-delay: 60s;
+    animation-duration: 100s;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--whiteColor);
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    transition: all .3s ease;
+}
+
+.menu-bar {
+    background-color: var(--blackColor);
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-bar ul li {
+    display: inline-block;
+    width: 15rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    transition: all .3s cubic-bezier(.6, .1, .68, .53);
+    cursor: pointer;
+}
+
+.menu-bar ul li.active,
+.menu-bar ul li:hover {
+    background-color: var(--mainColor);
+    border-radius: .3rem;
+}
+
+.menu-bar ul li a i {
+    margin-right: 0.8rem;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: var(--blackColor);
+    margin-top: 1.5rem;
+    margin-left: -1.5rem;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15rem;
+    padding: 1rem;
+    border-bottom: .1rem solid var(--mainColor);
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li i {
+    color: var(--whiteColor);
+    font-size: 1.6rem;
+    transition: all .35s ease;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover,
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover+i {
+    color: var(--mainColor);
+}
+
+.sub-menu-sub {
+    display: none;
+}
+
+.child:hover .sub-menu-sub {
+    display: block;
+    position: absolute;
+    margin-top: 14rem;
+    margin-left: 14rem;
+    background-color: var(--blackColor);
+}
+
+.nav-bar{
+    color: #fff;
+    font-size: 30px;
+    margin-right: 10%;
+
+}
+.facebook
+{
+
+    color: rgb(252, 253, 255);
+    font-size: x-large;
+}
+.twitter
+{
+    font-size: x-large;
+
+}
+@keyframes change {
+2%
+{
+    background-image: url(bg2.jpg);
+}
+20%
+{
+    background-image: url(bg3.jpg);
+}
+40%
+{
+    background-image: url(bg4.jpg);
+
+}
+60%
+{
+    background-image: url(bg.jpg);
+}
+80%
+{
+    background-image: url(bg7.jpg);
+}
+100%
+{
+    background-image: url(bg5.jpg);
+}
+
+}
+   #clock
+{
+	
+	font-size: 60px;
+	font-weight: 2px;
+    padding-top: 1px;
+    margin-top: 300px;
+    color: rgb #094218;
+    font-family: sans-serif;
+
+} 
+ 
+

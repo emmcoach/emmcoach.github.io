@@ -1,0 +1,32 @@
+.form
+{
+margin: 200px;
+padding: 80px;
+border: 5px sienna;
+width: 300px;
+background-size: cover;
+}
+body
+{
+    background-size: cover;
+}
+#staffdisplay
+{
+display: 100%;
+size: 100%;
+background-color: rgb(144, 169, 191);
+width: 65%;
+height: 70px;
+text-align: center;
+padding: 15px;
+border: 10px slateblue;
+border-radius: 10px;
+}
+
+tr:hover 
+{background-color: coral;}
+tr
+{
+    background-color: rgb(112, 136, 128);
+    height: 10px;
+}

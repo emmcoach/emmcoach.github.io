@@ -1,0 +1,26 @@
+*
+{
+    margin: auto
+    border 10px;
+}
+body
+{
+background-color: #fff;
+font-size: xx-large;
+background-image: url(bg2.jpg);
+}
+form
+{
+    background-image: url(bg1.jpg);
+    border: 100px;
+    padding: 10px;
+    
+}
+h1
+{
+    font-size: xx-large;
+
+    color: rgb(223, 238, 229);
+    text-decoration: antiquewhite;
+    ;
+}
